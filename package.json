@@ -1,0 +1,33 @@
+{
+  "name": "dsa_frontend",
+  "version": "1.0.0",
+  "description": "frontend using react",
+  "main": "./public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./public/index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhjeevnijjar/DsaHelpPlatform-React.git"
+  },
+  "author": "prabhjeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhjeevnijjar/DsaHelpPlatform-React/issues"
+  },
+  "homepage": "https://github.com/prabhjeevnijjar/DsaHelpPlatform-React#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.3.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
